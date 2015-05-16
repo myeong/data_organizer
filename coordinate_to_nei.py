@@ -28,7 +28,7 @@ with open(path, newline='') as csvfile:
                 coor = get_coordinates(row[4], False)
                 cnt_list[i][2] = coor[0] #lat
                 cnt_list[i][3] = coor[1] #lon
-                time.sleep(0.1)
+                time.sleep(0.1)         # added time interval due to the constraints for bursting queries
                 print("coded " + row[4])
             else:
                 continue
