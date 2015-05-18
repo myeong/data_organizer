@@ -6,10 +6,30 @@ from pygeolib import GeocoderError
 
 googleGeocodeUrl = 'http://maps.googleapis.com/maps/api/geocode/json?'
 
-# path = r'C:\Users\LM\Dropbox2\Dropbox\Event_Data\comparison\final_physical.csv'
-# path2 = r'C:\Users\LM\Dropbox2\Dropbox\Event_Data\comparison\final_physical_coor.csv'
-path = r'C:\Users\LM\Dropbox2\Dropbox\Event_Data\comparison\total_phy_addr.csv'
-path2 = r'C:\Users\LM\Dropbox2\Dropbox\Event_Data\comparison\total_phy_coor_rest.csv'
+# path = r'C:\Users\LM\Dropbox2\Dropbox\Event_Data\NH-based_Analysis\Online_Jan_Oakland_clean.csv'
+# path2 = r'C:\Users\LM\Dropbox2\Dropbox\Event_Data\NH-based_Analysis\Online_Jan_Oakland_coor.csv'
+# path = r'C:\Users\LM\Dropbox2\Dropbox\Event_Data\NH-based_Analysis\Online_Jan_Lawrenceville_clean.csv'
+# path2 = r'C:\Users\LM\Dropbox2\Dropbox\Event_Data\NH-based_Analysis\Online_Jan_Lawrenceville_coor.csv'
+# path = r'C:\Users\LM\Dropbox2\Dropbox\Event_Data\NH-based_Analysis\Online_Jan_Shadyside_clean.csv'
+# path2 = r'C:\Users\LM\Dropbox2\Dropbox\Event_Data\NH-based_Analysis\Online_Jan_Shadyside_coor.csv'
+# path = r'C:\Users\LM\Dropbox2\Dropbox\Event_Data\NH-based_Analysis\Online_Jan_Bloomfield_clean.csv'
+# path2 = r'C:\Users\LM\Dropbox2\Dropbox\Event_Data\NH-based_Analysis\Online_Jan_Bloomfield_coor.csv'
+# path = r'C:\Users\LM\Dropbox2\Dropbox\Event_Data\NH-based_Analysis\Online_Jan_SquirrelHill_clean.csv'
+# path2 = r'C:\Users\LM\Dropbox2\Dropbox\Event_Data\NH-based_Analysis\Online_Jan_SquirrelHill_coor.csv'
+
+# path = r'C:\Users\LM\Dropbox2\Dropbox\Event_Data\NH-based_Analysis\Physical_Jan_Oakland.csv'
+# path2 = r'C:\Users\LM\Dropbox2\Dropbox\Event_Data\NH-based_Analysis\Physical_Jan_Oakland_coor.csv'
+# path = r'C:\Users\LM\Dropbox2\Dropbox\Event_Data\NH-based_Analysis\Physical_Jan_Lawrenceville.csv'
+# path2 = r'C:\Users\LM\Dropbox2\Dropbox\Event_Data\NH-based_Analysis\Physical_Jan_Lawrenceville_coor.csv'
+path = r'C:\Users\LM\Dropbox2\Dropbox\Event_Data\NH-based_Analysis\Physical_Jan_Shadyside.csv'
+path2 = r'C:\Users\LM\Dropbox2\Dropbox\Event_Data\NH-based_Analysis\Physical_Jan_Shadyside_coor.csv'
+# path = r'C:\Users\LM\Dropbox2\Dropbox\Event_Data\NH-based_Analysis\Physical_Jan_Bloomfield.csv'
+# path2 = r'C:\Users\LM\Dropbox2\Dropbox\Event_Data\NH-based_Analysis\Physical_Jan_Bloomfield_coor.csv'
+# path = r'C:\Users\LM\Dropbox2\Dropbox\Event_Data\NH-based_Analysis\Physical_Jan_SquirrelHill.csv'
+# path2 = r'C:\Users\LM\Dropbox2\Dropbox\Event_Data\NH-based_Analysis\Physical_Jan_SquirrelHill_coor.csv'
+
+# path = r'C:\Users\LM\Dropbox2\Dropbox\Event_Data\comparison\total_phy_addr.csv'
+# path2 = r'C:\Users\LM\Dropbox2\Dropbox\Event_Data\comparison\total_phy_coor_rest.csv'
 cnt_list = [[0 for x in range(4)] for x in range(1000)]
 
 def get_coordinates(query, from_sensor=False):
